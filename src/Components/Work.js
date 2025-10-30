@@ -1,10 +1,12 @@
 import React from "react";
 
-function Work({ position, company, location, type, duration }) {
+function Work({ position, company, location, type, duration, link }) {
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">
-        <h1 className="text-content md:text-lg lg:text-xl">{position}</h1>
+        <h1 className="text-content md:text-lg lg:text-xl">
+          {link ? <a href={link} target="_blank" rel="noopener noreferrer">{position}</a> : position}
+        </h1>
         <div className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
           {type}
         </div>

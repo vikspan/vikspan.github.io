@@ -4,14 +4,14 @@ import { socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github } = socialMediaUrl;
+  const { linkedin, github } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
-      <div className="flex justify-between items-center py-2 md:py-10">
+    <header className="container mx-auto md:flex justify-between pt-2 pb-4 max-width">
+      <div className="flex justify-between items-center py-2 md:py-8">
         <NavLink to="/">
           <span className="text-xl font-bold bg-clip-text bg-gradient-header text-transparent">
             Viktorija Špan
@@ -65,7 +65,7 @@ function Header() {
         </ul>
         <ul className="flex justify-center items-center my-5 md:my-0 space-x-5 md:mr-5">
           <li>
-            <a href={linkdein} target="_blank" rel="noreferrer noopener">
+            <a href={linkedin} target="_blank" rel="noreferrer noopener">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
                 width="30"
