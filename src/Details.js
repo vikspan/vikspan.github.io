@@ -20,24 +20,26 @@ import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 
 // Project Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/project1.png";
+import projectImage2 from "./assets/projects/project2.png";
+import projectImage3 from "./assets/projects/project3.png";
+import projectImage4 from "./assets/projects/project4.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Viktorija Špan",
   tagline: "I build things for web",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I'm a front-end developer with a focus on building clean, responsive, and visually 
+  polished interfaces. I enjoy creating layouts that look exactly as intended and solving 
+  logical challenges along the way. After completing intensive training in JavaScript and 
+  React, I'm now looking for my first professional role where I can keep learning, contribute 
+  to real projects, and grow as a developer.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/viktorija-span",
   github: "https://www.github.com/vikspan",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
@@ -71,20 +73,45 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
+    Position: "JavaScript Developer",
+    Company: "Coders Lab",
     Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Type: "Full Time / Certificate",
+    Duration: "2025",
+    Link: "/assets/coderslab-certificate.pdf"
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "CS50x - Introduction to Computer Science",
+    Company: "Harvard University",
+    Location: "Online",
+    Type: "Ongoing / Self-Paced",
+    Duration: "2025 - Present",
+    Link: "https://cs50.harvard.edu/x/"
   },
+  {
+    Position: "Web Foundations & Improved Styling with CSS",
+    Company: "Codecademy",
+    Location: "Online",
+    Type: "Self-Paced",
+    Duration: "2024",
+    Link: "https://www.codecademy.com/"
+  },
+  {
+    Position: "Bachelor's in English",
+    Company: "University of Ljubljana",
+    Location: "Ljubljana, Slovenia",
+    Type: "Full Time",
+    Duration: "2019"
+  },
+  {
+    Position: "Bachelor's in Art History",
+    Company: "University of Ljubljana",
+    Location: "Ljubljana, Slovenia",
+    Type: "Full Time",
+    Duration: "2019"
+  }
 ];
+
 
 // Tech Stack and Tools
 export const techStackDetails = {
@@ -107,63 +134,50 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Custom Coding Color Theme",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A React + Vite app I designed and built to make customizing VS Code 
+    color themes easy and fun. It lets you live-edit syntax colors for HTML, CSS, and JS, 
+    preview changes instantly, and export matching VS Code rules. Minimal, elegant UI 
+    and fully my concept, design, and implementation.`,
+    techstack: "HTML, Sass, JS, React, Vite",
+    previewLink: "https://vikspan.github.io/custom-coding-color-theme",
+    githubLink: "https://github.com/vikspan/custom-coding-color-theme",
   },
   {
-    title: "Project title 2",
+    title: "CL Portfolio Project",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A React-based developer portfolio site built as part of the Coders Lab 
+    JavaScript Developer course. It fetches project data from a mock API and features 
+    a responsive layout I completed and refined independently.`,
+    techstack: "HTML, Sass, JS, React",
+    previewLink: "https://vikspan.github.io/CL_Portfolio_Project",
+    githubLink: "https://github.com/vikspan/CL_Portfolio_Project",
   },
   {
-    title: "Project title 3",
+    title: "CL BestShop",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A responsive online shop layout built from a course-provided design. 
+    The project focuses on mastering layout and using Sass. It includes a 
+    custom JavaScript price calculator with dynamic updates and form validation.`,
+    techstack: "HTML, Sass, JS",
+    previewLink: "https://vikspan.github.io/CL_BestShop_RWD",
+    githubLink: "https://github.com/vikspan/CL_BestShop_RWD",
   },
   {
-    title: "Project title 4",
+    title: "CL Weather Widget",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+    description: `A React-based weather widget built during the Coders Lab JavaScript 
+    course. I later improved it by fixing the layout and adding multi-city weather 
+    switching. It displays weather data from a local file and has a dynamic UI.`,
+    techstack: "HTML, Sass, JS, React",
+    previewLink: "https://vikspan.github.io/CL_WeatherApp",
+    githubLink: "https://github.com/vikspan/CL_WeatherApp",
+  }
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "viktorija.span@gmail.com",
+  linkedin: "https://www.linkedin.com/in/viktorija-span"
 };

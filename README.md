@@ -1,4 +1,4 @@
-# vikspan - Developer Portfolio
+# Viktorija Špan - Developer Portfolio
 
 A personal portfolio website built with **React** and **Tailwind CSS**, based on the [React Developer Portfolio Template](https://github.com/pavanmg007/react-developer-portfolio-template) by [Pavan MG](https://github.com/pavanmg007).  
 The original Figma design by Pavan MG is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
