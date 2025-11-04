@@ -9,17 +9,19 @@ import Technologies from "./Pages/Technologies";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/technologies" element={<Technologies />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <div className="bg-white dark:bg-dark-mode min-h-screen font-primary">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/technologies" element={<Technologies />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 

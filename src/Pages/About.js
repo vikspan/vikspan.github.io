@@ -12,7 +12,7 @@ function About() {
         <p className="text-content text-center pt-8 mx-auto lg:max-w-3xl">
           {personalDetails.about}
         </p>
-        <p className="text-content text-center pt-2 pb-8 mx-auto lg:max-w-3xl">
+        <p className="text-content text-center pt-4 pb-8 mx-auto lg:max-w-3xl">
           <a
             href="/assets/viktorija-span-cv.pdf"
             target="_blank"
