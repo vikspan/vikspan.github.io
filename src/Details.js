@@ -30,11 +30,15 @@ export const personalDetails = {
   name: "Viktorija Špan",
   tagline: "I build things for web",
   img: profile,
-  about: `I'm a front-end developer with a focus on building clean, responsive, and visually 
-  polished interfaces. I enjoy creating layouts that look exactly as intended and solving 
-  logical challenges along the way. After completing intensive training in JavaScript and 
-  React, I'm now looking for my first professional role where I can keep learning, contribute 
-  to real projects, and grow as a developer.`,
+  about: `I’m a junior QA tester with a background in front-end development, 
+  focused on building and evaluating clean, responsive, and visually polished web interfaces. 
+  My experience in development helps me understand how applications work behind the scenes, 
+  making it easier to identify bugs, inconsistencies, and edge cases. I enjoy exploring 
+  how things behave in different scenarios, ensuring that layouts render as intended, 
+  and solving logical issues that affect user experience. After completing 
+  intensive training in JavaScript and React, I’m now looking for my first 
+  professional opportunity in QA, where I can keep learning, contribute to real projects, 
+  and grow in the field of software testing.`,
 };
 
 // Enter your Social Media URLs here
@@ -84,8 +88,8 @@ export const eduDetails = [
     Position: "CS50x - Introduction to Computer Science",
     Company: "Harvard University",
     Location: "Online",
-    Type: "Ongoing / Self-Paced",
-    Duration: "2025 - Present",
+    Type: "Self-Paced",
+    Duration: "2026",
     Link: "https://cs50.harvard.edu/x/"
   },
   {
